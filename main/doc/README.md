@@ -83,3 +83,11 @@ To 'turn' I can single-finger-drag on the tranckpad.
 It is kind of cool to 'be' in my house model!
 
 ![alt text](image-9.png)
+
+## It seems windows from Freecad to Blender comes as one mesh and 'steel' material
+
+![alt text](image-10.png)
+
+I exported a single wondow from my house model in Freecad and BIM Workbench. I chose the GLTF file format. When I imported it into Blender and inspected it, it seems it is in a single material (int his case mat_0.001)?
+
+I conclude that Freecad models windows in some 'magic' way that does NOT export a window in separated meshes for the frame and the glass?
